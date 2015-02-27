@@ -1,0 +1,47 @@
+		
+#divVistaPrevia{
+	width:650px;
+	height:300px;
+	padding:5px;
+	border:1px solid #CCC;
+	background-color:#FFF;	
+        text-align: center;
+        border-radius: 5px 5px 5px 5px;
+}
+#divVistaPrevia img{
+	position:relative;
+	display:none;
+        max-height: 100%;
+        max-width: 100%; 
+        margin:auto;
+}
+
+
+ul#ulImagenes li.active{
+	border:2px solid #000;	
+	background:#fff;
+	padding:2px;
+}
+ul#ulImagenes, ul#ulImagenes li{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+	
+ul#ulImagenes li{
+	float:left;
+	margin-right:7px;
+	margin-bottom:5px;
+	border:1px solid #CCC;	
+	padding:3px;
+	cursor:pointer;
+}
+ul#ulImagenes img{
+	float:left;
+	width:80px;
+	height:80px;
+	line-height:80px;
+	overflow:hidden;
+	position:relative;
+	z-index:1;		
+}

@@ -1,0 +1,1 @@
+D:\AppServ\php5\php.exe "EnvioInformesAuto.php" >> "D:\AppServ\www\CAP20\Informes\EnvioInformesAuto.log"
